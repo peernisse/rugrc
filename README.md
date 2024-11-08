@@ -6,7 +6,16 @@ GIS layers from Utah UGRC GIS provider
 <!-- badges: end -->
 
 
+
 ## Overview
+
+### How to Install
+
+```
+library(remotes)
+remotes::install_github('https://github.com/peernisse/rugrc')
+
+```
 
 ## Datasets
 
