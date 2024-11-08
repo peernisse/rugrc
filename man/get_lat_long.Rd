@@ -3,7 +3,8 @@
 \name{get_lat_long}
 \alias{get_lat_long}
 \title{get_lat_long
-Create an API connection tot he UGRC API}
+Return lattitude and longitude from an address and zipcode
+Queries the Utah UGRC API to obtain lat/long}
 \usage{
 get_lat_long(address, zipcode, apikey = NULL)
 }
@@ -15,10 +16,11 @@ get_lat_long(address, zipcode, apikey = NULL)
 \item{apikey}{UGRC authenticaion key. System key used as default.}
 }
 \value{
-Authenticated connection
+Named list of latitude and longitude in NAD83
 }
 \description{
 Handles authentication and connecting to UGRC API
+to return lat/long from an address
 }
 \examples{
 get_lat_long(address = '3286 E Vera Cir', zipcode = 84121)
